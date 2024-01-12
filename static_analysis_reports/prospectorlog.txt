@@ -1,0 +1,51 @@
+Messages
+========
+
+server.py
+  Line: 1
+    pylint: unused-import / Unused render_template imported from flask
+  Line: 8
+    pylint: unused-import / Unused Column imported from sqlalchemy
+  Line: 9
+    pylint: unused-import / Unused login_user imported from flask_login
+  Line: 10
+    pylint: reimported / Reimport 'UserMixin' (imported line 9)
+    pylint: unused-import / Unused login_required imported from flask_security
+    pyflakes: F811 / redefinition of unused 'UserMixin' from line 9 (col 1)
+  Line: 52
+    pylint: undefined-variable / Undefined variable 'Post' (col 15)
+  Line: 76
+    pylint: missing-timeout / Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (col 19)
+  Line: 83
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 8)
+  Line: 117
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 4)
+  Line: 133
+    pylint: missing-timeout / Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (col 19)
+  Line: 141
+    pylint: unused-variable / Unused variable 'feed' (col 8)
+  Line: 215
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 4)
+  Line: 244
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 4)
+  Line: 255
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 4)
+  Line: 265
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 4)
+  Line: 271
+    pycodestyle: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+
+
+
+Check Information
+=================
+         Started: 2024-01-12 18:46:42.810880
+        Finished: 2024-01-12 18:46:49.397538
+      Time Taken: 6.59 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: flask
+       Tools Run: dodgy, mccabe, profile-validator, pycodestyle, pyflakes, pylint
+  Messages Found: 17
+

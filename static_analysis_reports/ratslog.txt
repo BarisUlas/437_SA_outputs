@@ -1,0 +1,19 @@
+server.py:42: warning: bad token `@'
+server.py:68: warning: bad token `@'
+server.py:106: warning: bad token `@'
+server.py:125: warning: bad token `@'
+server.py:181: warning: bad token `@'
+server.py:206: warning: bad token `@'
+server.py:223: warning: bad token `@'
+server.py:241: warning: bad token `@'
+server.py:252: warning: bad token `@'
+server.py:262: warning: bad token `@'
+Entries in perl database: 33
+Entries in ruby database: 46
+Entries in python database: 62
+Entries in c database: 334
+Entries in php database: 55
+Analyzing server.py
+Total lines analyzed: 276
+Total time 0.000794 seconds
+347607 lines per second
